@@ -97,15 +97,18 @@ d=False
 print(d)
 print(type(d))
 
-f=4+6j
+f=4+6.6j
 print(f , type(f))
-print(f.real)
-print(f.imag)
+print(f.real) #4.0
+print(f.imag) #6.6
 
 """
 complex  = real + img
 real = 4
 img = 6
+
+4+6.5j
+6j+4
 
 j^2 = -1
 
