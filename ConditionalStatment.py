@@ -127,6 +127,50 @@ n - 2000
 5 - 0
 1 - 0
 
+9. Take two number from user and perform the operation by user given input.
+
+    1. Addition
+    2. Sub
+    3. Mul
+    4. Div
+    5. Modulus
+    6. Floor division (//)
+    7. power(**)
+    8. Find area of rectangle
+    9. INR to USD
+    10. USD to INR
+
+10. Write a program to input electricity unit charge and calculate the total 
+	electricity bill according to the given condition:
+
+	For first 50 units Rs. 0.50/unit
+	For next 100 units Rs. 0.75/unit
+	For next 100 units Rs. 1.20/unit
+	For unit above 250 Rs. 1.50/unit
+
+
+    unit = 30
+    bill = 30*0.50 = 15 
+
+    unit = 120
+    bill = 50*0.50 + 70 *0.75 = 25+52.5 = 77.5
+
+    unit = 300
+
+    50 - 0.50 = 25
+    100 - 0.75 = 75
+    100 - 1.20 = 120
+    50 - 1.50 = 75
+
+    bill = 295
+
+
+
+
+
+    2**3 -> 8
+
+
 
 
 
