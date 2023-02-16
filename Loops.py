@@ -48,7 +48,7 @@ range(start,end,step)
 # for j in range(5,10,-2):
 #     print(j,end=" ")
 
-# for j in range(10,-4,-2):
+# for j in range(10,-4,-2): # 10 8 6 4 2 0 -2 
 #     print(j,end=" ")
 
 # for j in range(-4,-10,-3):
@@ -132,6 +132,36 @@ for(;;)
 
     6,28,496,8128 -> perfect number.
 
+12. Take two number from user and find GCD/HCF.
+
+    12 - 1 2 3 4 6 12 
+    6 - 1 2 3 6
+
+    GCD: 6
+
+    4 - 1 2 4
+    5 - 1 5
+
+    GCD: 1
+
+13. Take two number from user and find LCM.
+
+    5 - 5 10 15 20 25
+    4 - 4 8 12 16 20 24 
+
+    LCM: 20
+
+    12 -  12 24 36 48
+    4 - 4 8 12 16 20
+
+    LCM: 12
+
+
+
+
+
+
+
 '''
 # 5.
 # n=int(input("\nEnter a no: "))
@@ -183,15 +213,89 @@ for(;;)
 
 # 11.
 
-n=int(input("entr a no:"))
-i=1
-sum=0
-while i<n:
-    if n%i==0:
-        sum=sum+i
-    i+=1
+# n=int(input("entr a no:"))
+# i=1
+# sum=0
+# while i<n:
+#     if n%i==0:
+#         sum=sum+i
+#     i+=1
 
-if sum==n:
-    print("perfect")
+# if sum==n:
+#     print("perfect")
+# else:
+#     print("Non Perfect")
+
+
+"""
+12. Take two number from user and find GCD/HCF.
+
+    12 - 1 2 3 4 6 12 
+    6 - 1 2 3 6
+
+    GCD: 6
+
+    4 - 1 2 4
+    5 - 1 5
+
+    GCD: 1
+
+
+"""
+
+# n1=int(input("Enter a no: "))
+# n2=int(input("Enter a no: "))
+
+
+# if n1>n2:
+#     min=n2
+# else:
+#     min=n1
+
+# i=1
+# while i<=min:
+
+#     if n1%i==0 and n2%i==0:
+#         gcd=i
+#     i+=1
+
+# print(f"GCD of {n1} and {n2} is {gcd}")
+
+
+'''
+13. Take two number from user and find LCM.
+
+    5 - 5 10 15 20 25
+    4 - 4 8 12 16 20 24 
+
+    LCM: 20
+
+    12 -  12 24 36 48
+    4 - 4 8 12 16 20
+
+    LCM: 12
+
+'''
+
+n1=int(input("Enter a no: "))
+n2=int(input("Enter a no: "))
+
+if n1>n2:
+    max=n1
 else:
-    print("Non Perfect")
+    max=n2
+
+i=max
+count=0
+while True:
+
+    if i%n1==0 and i%n2==0:
+        lcm=i
+        break
+
+    i+=max
+    count+=1
+
+print(f"LCM of {n1} and {n2} is {lcm}")
+print(count)
+    
