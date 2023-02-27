@@ -62,6 +62,21 @@ print(s[8:4:-1])
 print(s[8:4:-2])  # 8 6 
 print(s[1:5:-2]) # no output
 
+print("-------------------")
+str = "India is the best Country"
+#      012345678910      17    23 
+print(str[6]) # i
+print(str[3:9]) #ia is 
+print(str[2:]) #dia...
+print(str[4:-5]) # a is the best Co
+print(str[-3:-9]) #
+
+print("--------------")
+print(str[4:9:3])  # 4 7  - as
+print(str[12:4:-3]) #12 9 6 - _ti
+print(str[-9:-3:-1]) # no o/p
+print(str[2:9:-1]) #no o/p
+print(str[-3:7:-1]) 
 
 
 
