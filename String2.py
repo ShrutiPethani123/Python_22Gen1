@@ -81,8 +81,21 @@ print(s.startswith('Hello'))
 print(s.startswith('hello'))
 print(s.startswith('Hello',4,56))
 print(s.startswith('o E',4))
-print(s.endswith('Hello',9,24))
+print(s.endswith('H',9))
+# print(s.startswith('Hello', ,8)) - invalid
 
 
 
+
+
+
+
+
+'''
+statswith(' ')
+statswith(" " , start)
+starswith(" ",start,end)
+
+
+'''
 
