@@ -61,12 +61,50 @@ s = "Today is Monday and day after tommorow is holi"
 # print(s.rpartition("is"))
 
 
-s = "&&&&&&&&&&&&*****%%%%%%Today is Monday****** and day after tommorow is holi************"
-print(s.lstrip('&'))
-print(s.rstrip('*'))
-print(s.strip('*'))
-# print(s.lstrip('*&').rstrip('**'))
-print(s.strip('*%&'))
+# s = "&&&&&&&&&&&&*****%%%%%%Today is Monday****** and day after tommorow is holi************"
+# print(s.lstrip('&'))
+# print(s.rstrip('*'))
+# print(s.strip('*'))
+# # print(s.lstrip('*&').rstrip('**'))
+# print(s.strip('*%&'))
+
+s = input("Enter a string: ")
+l = len(s)
+
+if l%2==0:
+    print("Not valid string!!")
+else:
+    m=int((l-1)/2)
+    str = s[0] + s[m] + s[-1]
+    print(str)
+
+
+
+
+'''
+
+task:
+
+1. Take one string from user check the string length is even then print not valid string .
+    if string length is odd then perform operation like:
+    string: first char + middle char + last char
+
+   str - India
+   o/p: Ida
+
+   str - java
+   o/p:- not valid
+
+   str - python
+   o/p:- not valid
+
+   str - Tuesday
+   o/p: Tsy
+
+
+
+
+'''
 
 
 
