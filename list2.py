@@ -19,11 +19,11 @@ print(id(l3))
 
 # is , is not
 
-# print(l2 is l)
-# print(l3 is l)
+# print(l2 is l) - False
+# print(l3 is l) - True
 
-print(l2 is not l)
-print(l3 is not l)
+print(l2 is not l) - True
+print(l3 is not l) - False
 
 '''
 
@@ -43,7 +43,7 @@ print(l2)
 # l2.pop(45) - error (index out of range)
 # print(l2)
 
-l2.remove(6)
+l2.remove(6) #element
 print(l2)
 
 # l2.remove(9) - error
