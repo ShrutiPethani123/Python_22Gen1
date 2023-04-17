@@ -53,18 +53,19 @@ l=[100,200,200]
 s1.update(l)
 print(s1)
 
-s1.remove(200)
-print(s1)
+# s1.remove(200)
+# print(s1)
 
-s1.discard(100)
-print(s1)
+# s1.discard(100)
+# print(s1)
+
 
 # s1.discard(500)
 # s1.remove(500)
-print(s1)
+# print(s1)
 
-print(s1.pop())
-print(s1)
+# print(s1.pop())
+# print(s1)
 
 # s1.clear()
 # print(s1)
