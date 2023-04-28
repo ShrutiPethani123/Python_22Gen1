@@ -15,17 +15,15 @@ display()
 display()
 
 def add(x,y):
-    # return x+y
-    print("Sum....")
-    pass
+    return x+y
 
 
 
-# a=int(input("Enter a no: "))
-# b=int(input('ENter a no: '))
-# # ans=add(a,b)
-# # print(ans)
-# print(add(a,b))
+a=int(input("Enter a no: "))
+b=int(input('ENter a no: '))
+# ans=add(a,b)
+# print(ans)
+print(add(a,b))
 
 
 # Make one function for check prime number.

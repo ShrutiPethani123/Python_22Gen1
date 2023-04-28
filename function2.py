@@ -5,6 +5,7 @@ def printData(name,age,college="bvm", city="Ahm"):
 
 printData('raj',32)
 printData('joy',12,'daiict','baroda')
+printData('roy',34,"Gandhinagar")
 
 
 # keyword argument
@@ -27,13 +28,18 @@ marks("a",'c',4,5,2.33)
 # Arbitary Keyword Arguments(**args)
 
 def fun1(**name):
+    print(name)
     print(name['fname'],name['lname'],name['age'])
 
 fun1(fname="raj",age=20,lname="patel")
 
 
-# def fun2(name , college,*marks,add="ahm"):
-#     print(name , college,marks,add)
+def fun2(name , college,*marks,add="ahm"):
+    print(name , college,marks,add)
+
+fun2('raj','bvm',12,45,67,89)
+fun2('raj','bvm',12,45,67,89,'baroda')
+
 
 # def fun2(name , college, add="ahm",*marks):
 #     print(name , college,marks,add)
@@ -55,7 +61,7 @@ def fun3(name , age=45):
     print(age)
 
 fun3(50)
-# fun3(age=30,'raj') positional argument follows keyword argument
+# fun3(age=30,'raj')  #positional argument follows keyword argument
 fun3('raj',age=34)
 
 

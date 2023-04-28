@@ -13,17 +13,17 @@ print(d)
 # for i in d:
 #     print(i)
 
-for i in d.keys():
-    print(i)
+# for i in d.keys():
+#     print(i)
 
-for i in d:
-    print(i,d[i])
+# for i in d:
+#     print(i,d[i])
 
-for i in d.values():
-    print(i)
+# for i in d.values():
+#     print(i)
 
-for i in d.items():
-    print(i)
+# for i in d.items():
+#     print(i)
 
 # d[16]='china'
 # print(d)
@@ -34,6 +34,7 @@ print(d)
 d.update({17:'china'})
 print(d)
 
+d[18]='UAE'
 d1 = d.copy()
 print(d1)
 
